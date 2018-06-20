@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70791425-fad0-45d6-85da-9cf0552c4c4b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/html.html" beforeDir="false" afterPath="$PROJECT_DIR$/html.html" afterDir="false" />
-    </list>
+    <list default="true" id="70791425-fad0-45d6-85da-9cf0552c4c4b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +14,7 @@
       <file leaf-file-name="html.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
+            <state relative-caret-position="852">
               <caret line="930" column="82" selection-start-line="930" selection-start-column="82" selection-end-line="930" selection-end-column="82" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -179,7 +177,7 @@
     </packageJsonPaths>
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="236" />
     <option name="y" value="74" />
     <option name="width" value="1063" />
@@ -265,15 +263,15 @@
       <workItem from="1529285842964" duration="27951000" />
       <workItem from="1529327488313" duration="600000" />
       <workItem from="1529371810038" duration="21339000" />
-      <workItem from="1529458597878" duration="694000" />
+      <workItem from="1529458597878" duration="1289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213530000" />
+    <option name="totallyTimeSpent" value="214125000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="-11" width="1395" height="912" extended-state="6" />
+    <frame x="46" y="-11" width="1395" height="912" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24982053" />
@@ -554,7 +552,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
+        <state relative-caret-position="852">
           <caret line="930" column="82" selection-start-line="930" selection-start-column="82" selection-end-line="930" selection-end-column="82" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
