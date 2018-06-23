@@ -147,8 +147,8 @@ header .nav-item:hover a::before{
 }
 .mobi-header{
     position:absolute;
-    top: -13px;
-    left:42%;
+    top: -2%;
+    left: 41%;
     z-index: 99;
 }
 .mobi-header li:nth-child(1){
@@ -157,7 +157,7 @@ header .nav-item:hover a::before{
     width:40px;
     background: #b3b3b3;
     z-index:10;
-    color:red;
+
 }
 .mobi-header li:nth-child(2) {
     height: 7px;
@@ -165,13 +165,57 @@ header .nav-item:hover a::before{
     width: 7px;
     background: #b3b3b3;
     z-index: 10;
-    color: red;
+
 }
 
+#app-mobie::before{
+    content:'';
+    display: block;
+    width: calc(102% + 30px);
+    height: calc(100% + 30px);
+    position: absolute;
+    z-index: 99;
+    left:-18px;
+    top: 3%;
+    border:19px solid #1f2641;
+    border-radius:55px;
+    margin-top: -13%;
+}
 
+#app-mobie::after {
+    content: ' ';
+    position: absolute;
+    top: -15px;
+    left: 18%;
+    border-radius: 25px;
+    background: #1f2641;
+    width: 60%;
+    height: 30px;
+}
+.mobie-header{
+    position:absolute;
+    top: 9%;
+    left: 37%;
+    z-index: 99;
+}
+.mobie-header li:nth-child(1){
+    height:7px;
+    border-radius:3px;
+    width:40px;
+    background: #b3b3b3;
+    z-index:10;
+}
+.mobie-header li:nth-child(2) {
+    height: 7px;
+    border-radius: 50%;
+    width: 7px;
+    background: #b3b3b3;
+    z-index: 10;
+}
 
-
-
+#app-mobie.owl-carousel.owl-nav.disabled{
+    display: none!important;
+}
 
 
 
@@ -272,6 +316,7 @@ button.btn.btn-secondary{
     background: #FFFFFF!important;
     margin-left: -15px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-top: -5px;
 }
 .custom-nav.owl-carousel .owl-nav button.owl-next{
     width: 40px;
@@ -281,7 +326,7 @@ button.btn.btn-secondary{
     background: #FFFFFF!important;
     margin-right: -15px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-
+    margin-top: -5px;
 }
 .app.owl-carousel .owl-nav button.owl-next{
     width: 50px;
@@ -318,7 +363,7 @@ button.btn.btn-secondary{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: white!important;
+    background: #f8f9f9!important;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 #museums .owl-prev{
@@ -326,7 +371,7 @@ button.btn.btn-secondary{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: white!important;
+    background: #f8f9f9!important;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 #id .img-fluid{
@@ -452,11 +497,10 @@ section .download-left{
     margin-left:-35px;
 
 }
+
+
 .download-right .ap-item{
     padding-left:0px !important;
-}
-.download-left{
-    margin-left:-10px;
 }
 .next-app{
     height: 50px;
@@ -471,6 +515,19 @@ section .download-left{
     padding-left: 22px;
     cursor:pointer;
 }
+.img img{
+    transition: all 1s ease!important;
+    -webkit-transition: all 1s ease!important;
+    -moz-transition: all 1s ease!important;
+    -o-transition: all 1s ease!important;
+}
+.img img:hover {
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+}
 
 /* CSS for tablet */
 @media(min-width: 600px) and (max-width:1000px){
@@ -483,7 +540,6 @@ section .download-left{
         padding-left:100px !important;
         padding-right:100px !important;
     }
-
 }
 @media(max-width: 600px) {
     .banner {
@@ -492,7 +548,6 @@ section .download-left{
     .download-right .owl-carousel .owl-nav
     {
         position: absolute;
-        top: 70%;
     }
     div.col-lg-5{
         display: none;
@@ -504,16 +559,18 @@ section .download-left{
         padding-bottom: 70px;
     }
 }
-
 @media(width: 768px) {
     header #app-mobi .owl-nav{
         display: none;
     }
     #app-mobi::before {
-        height: calc(102% + 30px);
+        height: calc(101% + 30px);
     }
     #menu .col-sm-8{
         margin-right: -150px!important;
+    }
+    .custom-nav.owl-carousel .owl-nav{
+        margin-top: 0px!important;
     }
 }
 @media(min-width: 475px) and (max-width:768px) {
@@ -559,5 +616,135 @@ section .download-left{
     div.col-sm-2.number.owl-controls.clickable{
         top: 25%;
         margin-right: 70px;
+    }
+}
+@media(min-width: 360px) and (max-width: 768px){
+    #app-mobie2.owl-carousel{
+        display: none;
+    }
+    .download-right{
+        margin-left: 0%!important;
+    }
+    h3.text-white{
+        text-align: center;
+    }
+    p.text-white{
+        text-align: center;
+    }
+    .btn-download{
+        justify-content: center;
+        display: flex;
+    }
+
+}
+@media(width: 768px){
+    #app-mobie::before{
+        top: 4%;
+        width: calc(100% + 30px);
+        height: calc(101% + 30px);
+    }
+    .mobie-header{
+        top: 4.5%;
+        left: 40%;
+    }
+    h3.text-white{
+        text-align: center;
+    }
+    p.text-white{
+        text-align: center;
+    }
+    .btn-download{
+        justify-content: center;
+        display: flex;
+    }
+    .download-right{
+        margin-left: 4%!important;
+    }
+}
+@media(width: 1024px) {
+    h3.text-white{
+        text-align: center;
+    }
+    p.text-white{
+        text-align: center;
+    }
+    .btn-download{
+        justify-content: center;
+        display: flex;
+    }
+    .download-right{
+        margin-left: 4%!important;
+    }
+    #app-mobie::before{
+        top: 3%;
+        border: 40px solid #1f2641;
+        width: calc(105% + 30px);
+        height: calc(102% + 30px);
+        border-radius: 120px;
+        margin-top: -11%;
+        left: -40px;
+    }
+    #app-mobie2.owl-carousel{
+        display: none;
+    }
+    .mobie-header{
+        top: 3%;
+        left: 37%;
+    }
+    .mobie-header li:nth-child(1) {
+        width: 100px;
+        height: 15px;
+    }
+    .mobie-header li:nth-child(2) {
+        height: 17px;
+        width: 20px;
+    }
+}
+@media(width: 320px) {
+    #app-mobie2.owl-carousel {
+        display: none;
+    }
+    h3.text-white{
+        text-align: center;
+    }
+    p.text-white{
+        text-align: center;
+    }
+    .btn-download{
+        justify-content: center;
+        display: flex;
+    }
+    .download-right{
+        margin-left: 0%!important;
+    }
+}
+@media(width: 375px)  {
+    .mobie-header {
+        top: 7%;
+        left: 41%;
+    }
+    #app-mobie::before {
+        width: calc(101% + 30px);
+    }
+}
+@media(width: 414px){
+    #app-mobie::before {
+        top: 4%;
+    }
+    .mobie-header{
+        top: 7%;
+        left: 40%;
+    }
+}
+@media(min-width: 100px) and (max-width: 2000px){
+    h3.text-white{
+        text-align: center;
+    }
+    p.text-white{
+        text-align: center;
+    }
+    .btn-download{
+        justify-content: center;
+        display: flex;
     }
 }

@@ -1,0 +1,59 @@
+#app-mobi::before{
+    content:'';
+    display: block;
+    width: calc(102% + 30px);
+    height: calc(94% + 30px);
+    position: absolute;
+    z-index: 99;
+    left:-18px;
+    top: 3%;
+    border:19px solid #1f2641;
+    border-radius:55px;
+    margin-top: -13%;
+}
+
+#app-mobi::after {
+    content: ' ';
+    position: absolute;
+    top: -15px;
+    left: 18%;
+    border-radius: 25px;
+    background: #1f2641;
+    width: 60%;
+    height: 30px;
+}
+/*.download-left{*/
+/*margin-left:-10px;*/
+/*}*/
+section .download-left {
+    background: #f07c7d;
+}
+.btn-download{
+    margin-bottom:100px;
+}
+.download{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.mobi-header{
+    position:absolute;
+    top: -13px;
+    left:42%;
+    z-index: 99;
+}
+.mobi-header li:nth-child(1){
+    height:7px;
+    border-radius:3px;
+    width:40px;
+    background: #b3b3b3;
+    z-index:10;
+    color:red;
+}
+.mobi-header li:nth-child(2) {
+    height: 7px;
+    border-radius: 50%;
+    width: 7px;
+    background: #b3b3b3;
+    z-index: 10;
+    color: red;
+}
