@@ -635,6 +635,10 @@ section .download-left{
         justify-content: center;
         display: flex;
     }
+    .mobie-header{
+        top: 8%;
+        left: 41%;
+    }
 
 }
 @media(width: 768px){
@@ -727,7 +731,7 @@ section .download-left{
         width: calc(101% + 30px);
     }
 }
-@media(width: 414px){
+@media(min-width: 411px) and (max-width: 414px){
     #app-mobie::before {
         top: 4%;
     }
@@ -746,5 +750,33 @@ section .download-left{
     .btn-download{
         justify-content: center;
         display: flex;
+    }
+}
+@media(width: 2560px) {
+    #app-mobie::before{
+        top: 4%;
+        border: 24px solid #1f2641;
+        width: calc(100% + 30px);
+    }
+    .mobie-header li:nth-child(1){
+        height: 13px;
+        width: 56px;
+    }
+    .mobie-header{
+        top: 5%;
+
+    }
+    .mobie-header li:nth-child(2){
+        width: 15px;
+        height: 15px;
+    }
+    #app-mobie2{
+        margin-top: 28%!important;
+    }
+    section .download-left{
+        height: 90%;
+    }
+    .app-leftt{
+        font-size: 30px;
     }
 }

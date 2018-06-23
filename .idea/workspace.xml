@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70791425-fad0-45d6-85da-9cf0552c4c4b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2slide.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmll.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
-    </list>
+    <list default="true" id="70791425-fad0-45d6-85da-9cf0552c4c4b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,13 +141,13 @@
       <find>item</find>
       <find>owl</find>
       <find>active</find>
-      <find />
+      <find>margin-right: 10px;</find>
       <find>margin-right</find>
       <find>hihi</find>
       <find>testt</find>
       <find>none</find>
       <find>font</find>
-      <find />
+      <find>display: none</find>
       <find>z-in</find>
       <find>.owl-carousel</find>
       <find>block</find>
@@ -170,7 +164,7 @@
       <find>hide</find>
       <find>270</find>
       <find>cust</find>
-      <find />
+      <find>top: 70</find>
       <find>margin-top</find>
       <find>margin-top:10px</find>
     </findStrings>
@@ -298,7 +292,7 @@
       <workItem from="1529505293946" duration="5430000" />
       <workItem from="1529545095327" duration="28063000" />
       <workItem from="1529594922944" duration="175000" />
-      <workItem from="1529717907699" duration="2139000" />
+      <workItem from="1529717907699" duration="3033000" />
     </task>
     <task id="LOCAL-00001" summary="rddr">
       <created>1529462013514</created>
@@ -314,11 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529719683849</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update_bai_test">
+      <created>1529720137340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529720137341</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257792000" />
+    <option name="totallyTimeSpent" value="258686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="-11" width="1395" height="912" extended-state="6" />
@@ -353,7 +354,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rddr" />
-    <option name="LAST_COMMIT_MESSAGE" value="rddr" />
+    <MESSAGE value="update_bai_test" />
+    <option name="LAST_COMMIT_MESSAGE" value="update_bai_test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Downloads/css/css4.html">
